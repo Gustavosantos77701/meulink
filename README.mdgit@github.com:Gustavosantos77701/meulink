@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Este é um site de exemplo criado para demonstrar o layout inicial.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="cards">
+            <div class="card">Serviço 1</div>
+            <div class="card">Serviço 2</div>
+            <div class="card">Serviço 3</div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <button onclick="mostrarMensagem()">Clique aqui</button>
+        <p id="mensagem"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 - Meu Site</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
